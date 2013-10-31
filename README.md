@@ -44,7 +44,6 @@ TopMost Window:
 :ConqueTerm mysql -h localhost -u joe -p sock_collection
 :ConqueTerm Powershell.exe
 :ConqueTerm C:\Python27\python.exe
-
 To open ConqueTerm in a new horizontal or vertical buffer use:
 :ConqueTermSplit <command>
 :ConqueTermVSplit <command>

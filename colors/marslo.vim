@@ -113,8 +113,10 @@ hi PmenuSbar    guifg=black guibg=gray14
 
 " Inspired from http://stackoverflow.com/questions/10746750/set-vim-bracket-highlighting-colors
 " Color for :set showmatch
-hi MatchParen guibg=GreenYellow gui=underline
-hi MatchParen ctermbg=green cterm=underline term=underline
+" hi MatchParen guibg=GreenYellow gui=underline
+" hi MatchParen ctermbg=Green
+hi MatchParen gui=inverse
+hi MatchParen cterm=inverse term=inverse
 
 " Color for :set cursorline (Highlight the line number only)
 hi LineNr guifg=#555555 guibg=background
