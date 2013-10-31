@@ -8,6 +8,7 @@ Marslo.vim
 ### Links
 - [Github](https://github.com/mattn/vimtweak)
 - [VimPlugin](http://www.vim.org/scripts/script.php?script_id=687)
+
 ### Usage
 - Put **vimtweak.dll** to vim runtime directory (same as vim.exe)
 - Official usage
@@ -33,19 +34,18 @@ TopMost Window:
 ## conqueterm_2.2.vmb
 ### Link
 - [VimPlugin](http://www.vim.org/scripts/script.php?script_id=2771)
+
 ### Usage
 - Installation:
 <pre><code>:so %</code></pre>
 - Official usage:
 <pre><code>Type :ConqueTerm <command> to run your command in vim, for example:
-
 :ConqueTerm bash
 :ConqueTerm mysql -h localhost -u joe -p sock_collection
 :ConqueTerm Powershell.exe
 :ConqueTerm C:\Python27\python.exe
 
 To open ConqueTerm in a new horizontal or vertical buffer use:
-
 :ConqueTermSplit <command>
 :ConqueTermVSplit <command>
 :ConqueTermTab <command>
